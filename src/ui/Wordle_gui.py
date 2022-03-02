@@ -1,5 +1,5 @@
 import sys
-
+sys.path.append(os.getcwd())
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QMessageBox, QApplication, QStyleFactory
 from PyQt5.QtGui import QFont, QColor
